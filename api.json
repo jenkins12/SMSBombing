@@ -1,5 +1,19 @@
 [
     {
+        "desc": "金猫拉货-注册",
+        "url": "https://www.jinmaolahuo.com/api/v1/5b5bdc44796e8",
+        "method": "POST",
+        "header": {
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "data": {
+            "mobile": "[phone]",
+            "is_test": 0,
+            "type": "3"
+        },
+        "form": ""
+    },
+    {
         "desc": "小叶子app",
         "url": "https://dss.xiaoyezi.com/student_app/auth/validate_code?mobile=[phone]&country_code=86",
         "method": "GET",
