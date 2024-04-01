@@ -1,5 +1,12 @@
 [
     {
+        "desc": "美达司机端app-注册",
+        "url": "http://gate.md56.com.cn/admin/app/[phone]/2/3",
+        "method": "GET",
+        "header": "",
+        "data": ""
+    },
+    {
         "desc": "鸿飞达司机app-注册",
         "url": "https://pro.hongfeida.cn/user-center-server/sms/sendRegisterMsg?dType=3&mobile=[phone]",
         "method": "GET",
