@@ -1,6 +1,13 @@
 [
     {
-        "desc": "金猫拉货-注册",
+        "desc": "点亮优客app-注册",
+        "url": "http://app.tianquan999.com/api/login/get-code?phone=[phone]",
+        "method": "GET",
+        "header": "",
+        "data": ""
+    },
+    {
+        "desc": "金猫拉货app-注册",
         "url": "https://www.jinmaolahuo.com/api/v1/5b5bdc44796e8",
         "method": "POST",
         "header": {
