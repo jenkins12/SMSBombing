@@ -1,5 +1,22 @@
 [
     {
+        "desc": "移动智慧小区app",
+        "url": "https://health.gdyuanpeng.com:8002/property/v1/app//register/code",
+        "method": "POST",
+        "header": {
+            "Content-Type": "application/json; charset=UTF-8",
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36",
+            "X-Requested-With": "XMLHttpRequest"
+        },
+        "data": {
+            "osVer": "16.3",
+            "uuid": "a0db091a878e44e7801ed141ee3d02b1",
+            "mobilePhone": "[phone]",
+            "platform": "iOS",
+            "appVer": "1.2.9"
+        }
+    },
+    {
         "desc": "品致小区app-注册",
         "url": "https://altrain.kinmi.cn/WcfSysServiceLibrary/WSysService/getphoneverifycodebyreg?",
         "method": "POST",
