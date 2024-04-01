@@ -1,11 +1,18 @@
 [
     {
+        "desc": "紫光 智能家居app-注册",
+        "url": "https://uhp.unisiot.com:8187/SHCSW/login/getMsgCode.do?mobileNum=[phone]",
+        "method": "GET",
+        "header": "",
+        "data": ""
+    },
+    {
         "desc": "鸿飞达司机app-注册",
         "url": "http://36.133.66.116:8089/base-proxy/api/base-user-service/service/userApp/sms?phoneNumber=[phone]",
         "method": "POST",
         "header": "",
         "data": ""
-    }
+    },
     {
         "desc": "移动智慧小区app",
         "url": "https://health.gdyuanpeng.com:8002/property/v1/app//register/code",
