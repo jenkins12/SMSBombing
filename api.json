@@ -1,12 +1,5 @@
 [
     {
-        "desc": "用户到家",
-        "url": "https://user.daojia.com/mobile/getcode?mobile=[phone]&newVersion=1&bu=112",
-        "method": "GET",
-        "header": "",
-        "data": ""
-    },
-    {
         "desc": "小叶子app",
         "url": "https://dss.xiaoyezi.com/student_app/auth/validate_code?mobile=[phone]&country_code=86",
         "method": "GET",
@@ -25,13 +18,6 @@
         "data": {
             "userMobile": "[phone]"
         }
-    },
-    {
-        "desc": "乐教乐学",
-        "url": "http://id.lejiaolexue.com/api/sendvericode.ashx?phone=[phone]",
-        "method": "GET",
-        "header": "",
-        "data": ""
     },
     {
         "desc": "费耘网",
@@ -158,13 +144,6 @@
         "form": ""
     },
     {
-        "desc": "华测云",
-        "url": "https://cloud.huace.cn/ChcnavCloudAuth/code/sms?mobile=[phone]",
-        "method": "get",
-        "header": "",
-        "data": ""
-    },
-    {
         "desc": "有奖课堂",
         "url": "https://www.yojiang.cn/api/user/send_verify_code?phone=[phone]",
         "method": "get",
@@ -204,32 +183,6 @@
         }
     },
     {
-        "desc": "入党",
-        "url": "https://api.diantui.wxthe.com/addon/life/auth/phone/sendsms",
-        "method": "post",
-        "header": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36",
-            "Content-Type": "application/json",
-            "Pid": "33503148186406912",
-            "Referer": "https://life.diantui.wxthe.com/"
-        },
-        "data": {
-            "phone": "[phone]"
-        }
-    },
-    {
-        "desc": "写作猫",
-        "url": "https://xiezuocat.com/verify?type=signup",
-        "method": "post",
-        "header": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36",
-            "Content-Type": "application/json"
-        },
-        "data": {
-            "phone": "86-[phone]"
-        }
-    },
-    {
         "desc": "https://m.yiwise.com",
         "url": "https://m.yiwise.com/apiPlatform/verificationCode/send?phoneNumber=[phone]",
         "method": "get",
@@ -239,13 +192,6 @@
     {
         "desc": "https://m.95303.com",
         "url": "https://m.95303.com/api/OrderYx/GetCodeBySMS?mobile=[phone]&_=1626625066773",
-        "method": "get",
-        "header": "",
-        "data": ""
-    },
-    {
-        "desc": "https://www.51hawo.com",
-        "url": "https://www.51hawo.com/apollo/MobileCode/sendMobileCode?mobile=[phone]&sms_type=101&register_from=20000091",
         "method": "get",
         "header": "",
         "data": ""
@@ -335,13 +281,6 @@
         "data": ""
     },
     {
-        "desc": "https://www.sk-vip.cn",
-        "url": "http://www.sk-vip.cn/index.php?m=&c=page&a=yunhu&phone=15506725478",
-        "method": "get",
-        "header": "",
-        "data": ""
-    },
-    {
         "desc": "小叶子陪练",
         "url": "http://www.xiongmaopeilian.com/web/auth/send_validate_code",
         "method": "post",
@@ -357,22 +296,8 @@
         "form": ""
     },
     {
-        "desc": "www.pmzaojia.com",
-        "url": "http://www.pmzaojia.com/pmzaojia/api/user/sendRegisterPhoneCode?phoneNum=[phone]",
-        "method": "get",
-        "header": "",
-        "data": ""
-    },
-    {
         "desc": "www.sensorsdata.cn",
         "url": "https://www.sensorsdata.cn/api/passport/sms/quest_new/[phone]%20?_t=lkz3elvc",
-        "method": "get",
-        "header": "",
-        "data": ""
-    },
-    {
-        "desc": "https://api.qingmang.mobi",
-        "url": "http://api.qingmang.mobi/v1/account.sendVerification?platform=console&token=&phone=%2B86[phone]8&code=65080339",
         "method": "get",
         "header": "",
         "data": ""
@@ -401,36 +326,6 @@
         },
         "data": {
             "PhoneNumber": "[phone]"
-        },
-        "form": ""
-    },
-    {
-        "desc": "https://iam.pt.ouchn.cn",
-        "url": "https://iam.pt.ouchn.cn/portal/user/sendSmsRegister",
-        "method": "post",
-        "header": {
-            "Content-Type": "application/x-www-form-urlencoded",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
-        },
-        "data": {
-            "userPhone": "[phone]"
-        },
-        "form": ""
-    },
-    {
-        "desc": "零克",
-        "url": "http://ci.lingke.pro/index/sms/get_code.html",
-        "method": "POST",
-        "header": {
-            "Referer": "http://ci.lingke.pro/index/index/user_register.html",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36",
-            "X-Requested-With": "XMLHttpRequest",
-            "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8"
-        },
-        "data": {
-            "phone_area_code": "0086",
-            "type": "register",
-            "phone": "[phone]"
         },
         "form": ""
     },
