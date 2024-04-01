@@ -1,5 +1,18 @@
 [
     {
+        "desc": "品致小区app-注册",
+        "url": "https://altrain.kinmi.cn/WcfSysServiceLibrary/WSysService/getphoneverifycodebyreg?",
+        "method": "POST",
+        "header": {
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "data": {
+            "phone": "[phone]",
+            "buyerid": "9CE390A7-AA79-453C-A68B-E48EAD9D6783"
+        },
+        "form": ""
+    },
+    {
         "desc": "美达司机端app-注册",
         "url": "http://gate.md56.com.cn/admin/app/[phone]/2/3",
         "method": "GET",
